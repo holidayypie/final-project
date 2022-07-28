@@ -1,0 +1,29 @@
+.header {
+    text-align: center;
+    background-color: olive;
+    width: 100%;
+    height: 100px;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+li {
+    padding-left: 1rem;
+}
+.main-nav {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(95, 177, 95);
+}
+.p1 {
+    height: 300px;
+    width: 500px;
+    padding: 300px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #362507;
+}
