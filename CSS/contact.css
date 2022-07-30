@@ -9,7 +9,7 @@ input[type=text], select, textarea {
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #8ca39b;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -17,11 +17,11 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #8ca39b;
   }
   .container {
     border-radius: 5px;
-    background-color: #7ace7f;
+    background-color: #c8d6c9;
     padding: 20px;
   }
   .contact {
@@ -29,6 +29,9 @@ input[type=text], select, textarea {
     height: 50px;
     font-size: 40px;
     font-weight: 400;
-    font-display: center;
-    background-color: #4e8b51;
+    background-color: transparent;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
 }
