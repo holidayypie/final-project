@@ -43,3 +43,16 @@ a:hover {
     margin: 25px;
     float: right center;
 }
+img {
+    height: 180x;
+    width: 160px;
+    float: left;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #77613c;
+    border: 7px solid #362507;
+    margin: 35px;
+    float: bottom;
+}
