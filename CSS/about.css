@@ -1,0 +1,12 @@
+body{
+    flex-flow: column;
+}
+.rafitng{
+    width: 50%;
+    height: 50%;
+    font-size: 20px;
+    background-color: #cdc9c1;
+}
+img {
+    border-radius: 6px;
+}

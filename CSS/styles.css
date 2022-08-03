@@ -31,7 +31,8 @@ li {
     font-size: larger;
     font-style: oblique;
     margin: 25px;
-    float: left;
+    justify-content: flex-start space-around;
+
 }
 a {
     text-decoration: none;
@@ -41,7 +42,8 @@ a:hover {
 }
 .media {
     margin: 25px;
-    float: right center;
+    justify-content: flex-start;
+    flex-direction: row;
 }
 img {
     height: 180x;
@@ -53,6 +55,7 @@ footer {
     height: 50px;
     background-color: #77613c;
     border: 7px solid #362507;
-    margin: 35px;
-    float: bottom;
+    margin: 25px;
+    align-items: flex-end;
+    justify-content: space-around;
 }
