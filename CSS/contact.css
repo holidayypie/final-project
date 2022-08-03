@@ -25,6 +25,8 @@ input[type=text], select, textarea {
     background-color: #a99879;
     padding: 20px;
     border: 5px solid #362507;
+    margin: 5px;
+    margin-top: 25px;
 }
 .main-nav {
   height: 60px;
@@ -33,6 +35,7 @@ input[type=text], select, textarea {
   border: 5px solid #362507;
   margin: 5px;
   border-radius: 5px;
+  margin-top: 25px;
 }
 ul {
   list-style: none;
@@ -59,7 +62,8 @@ footer {
   border: 7px solid #362507;
   margin: 5px;
   align-items: flex-end;
-  font-display: center;
+  text-align: center;
   font-size: 35px;
   font-variant: small-caps;
+  margin-top: 25px;
 }

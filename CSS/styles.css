@@ -22,6 +22,8 @@ li {
     background-color: #a99879;
     border: 5px solid #362507;
     margin: 5px;
+    margin-top: 25px;
+    border-radius: 5px;
 }
 .p1 {
     height: 100%;
@@ -42,8 +44,6 @@ a:hover {
 }
 .media {
     margin: 25px;
-    justify-content: flex-start;
-    flex-direction: row;
 }
 img {
     height: 180x;
@@ -57,7 +57,8 @@ footer {
     border: 7px solid #362507;
     margin: 5px;
     align-items: flex-end;
-    font-display: center;
+    text-align: center;
     font-size: 35px;
     font-variant: small-caps;
+    margin-top: 25px;
 }
