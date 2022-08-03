@@ -10,3 +10,39 @@ body{
 img {
     border-radius: 6px;
 }
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #a99879;
+    font-size: 45px;
+    font-variant: small-caps;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+li {
+    padding-left: 10rem;
+    font-size: 15px;
+}
+.main-nav {
+    height: 60px;
+    width: 98%;
+    background-color: #a99879;
+    border: 5px solid #362507;
+    margin: 5px;
+}
+footer {
+    width: 98%;
+    height: 70px;
+    background-color: #a99879;
+    border: 7px solid #362507;
+    margin: 5px;
+    align-items: flex-end;
+    font-display: center;
+    font-size: 35px;
+    font-variant: small-caps;
+}

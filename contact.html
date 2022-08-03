@@ -2,14 +2,27 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="./CSS/contact.css">
-        <div class="contact">Contact Me</div>
         <style>
          body {
              background-image: url(./photo-1542728928-ee495082a3c6.avif);
              background-repeat: no-repeat;
              background-size: cover;
-                }
+              }
+        .hero-image {
+            background-image: url(./photo-1655512318649-8e32533c1c9f.avif);
+            height: 200px;
+            background-position-x: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            margin: 5px;
+           }
         </style>
+        <div class="hero-image">
+          <div class="hero-text">
+            <h1>Wellness 2 Me</h1>
+          </div>
+        </div>
          <nav>
           <div class="main-nav">          
           <ul>
@@ -27,23 +40,19 @@
           
               <label for="fname">First Name</label>
               <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
               <label for="lname">Last Name</label>
               <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          
               <label for="country">Country</label>
               <select id="country" name="country">
                 <option value="australia">Australia</option>
                 <option value="canada">Canada</option>
                 <option value="usa">USA</option>
               </select>
-          
               <label for="subject">Subject</label>
               <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
               <input type="submit" value="Submit">
-          
             </form>
           </div>
     </body>
+    <footer>Established 2022 @ryeha_</footer>
 </html>
