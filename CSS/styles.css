@@ -7,6 +7,7 @@
     color: #a99879;
     font-size: 45px;
     font-variant: small-caps;
+    font-family: 'Courier New', Courier, monospace
 }
 ul {
     list-style: none;
@@ -36,11 +37,14 @@ li {
     justify-content: flex-start space-around;
 
 }
-a {
+a:link {
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 }
 a:hover {
     color: #362507;
+    font-family: 'Courier New', Courier, monospace;
 }
 .media {
     margin: 25px;

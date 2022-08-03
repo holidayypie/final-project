@@ -54,6 +54,7 @@ li {
   color: #a99879;
   font-size: 45px;
   font-variant: small-caps;
+  font-family: 'Courier New', Courier, monospace;
 }
 footer {
   width: 98%;
@@ -69,4 +70,13 @@ footer {
 }
 i {
   margin: 8px;
+}
+a:link {
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
+a:hover {
+  color: #362507;
+  font-family: 'Courier New', Courier, monospace;
 }

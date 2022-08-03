@@ -50,6 +50,8 @@ footer {
     width: 600px;
     height:fit-content;
     margin: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
 }
 .p2 { font-size: 20px;
     background-color: #cdc9c1;
@@ -57,6 +59,8 @@ footer {
     height:fit-content;
     margin: 20px;
     margin-bottom: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
 }
 .hero-text {
     text-align: center;
@@ -67,14 +71,17 @@ footer {
     color: #a99879;
     font-size: 45px;
     font-variant: small-caps;
+    font-family: 'Courier New', Courier, monospace;
   }
   i {
     margin: 8px;
 }
-#body {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
+a:link {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 }
-
+a:hover {
+    color: #362507;
+    font-family: 'Courier New', Courier, monospace;
+}
